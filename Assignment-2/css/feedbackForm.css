@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 668px;
+    width: 100%;
+    background-image: url("assets/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mainContainer {
+    background-color: rgba(14, 13, 13, 0.75);
+}
+.container {
+    color: #ffffff;
+    background-attachment: fixed;
+    height: 603px;
+    padding-left: 200px;
+    padding-bottom: 22px;
+}
+img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.heading {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 43px;
+    padding-right: 300px;
+}
+
+p {
+    font-size: 40px;
+    color: #888;
+}
+
+.form-group {
+    margin-left: 27px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    padding-left: 25px;
+    background-color: rgba(14, 13, 13, 0.5);
+    border-radius: 50px;
+    height: 28px;
+    width: 814px;
+    font-size: 18px;
+}
+textarea {
+    padding: 10px;
+    padding-left: 25px;
+    background-color: rgba(14, 13, 13, 0.5);
+    border-radius: 20px;
+    height: 100px;
+    width: 814px;
+    font-size: 18px;
+}
+.btn {
+    margin-left: 27px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff1313;
+    width: 852px;
+    height: 51px;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff1313;
+}
+
+#acc {
+    font-size: 22px;
+    margin-right: 8px;
+}
