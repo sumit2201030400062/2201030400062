@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+    <div class="mainContainer">
+        <img src="./assets/logo2.png" alt="">
+        <div class="container">
+
+            <div class="heading">
+                <h1>SIGN IN</h1>
+            </div>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">USERNAME</label>
+                    <input type="text" id="username" style="color: #fff;" name="username"
+                        placeholder="Enter your username" required />
+                </div>
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" style="color: #fff;" id="password" name="password"
+                        placeholder="Enter your password" required />
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="remember-me" name="remember-me" />
+                    <label for="remember-me" class="form-check-label">Keep me signed in</label>
+                </div>
+                <button type="submit" class="btn btn-primary">SIGN IN</button>
+            </form>
+            <div class="links">
+                <a href="register.html">Create an account?</a>
+                <a href="forgotPassword.html">Forgot password?</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

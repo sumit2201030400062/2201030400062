@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="feedbackForm.css" />
+</head>
+
+<body>
+    <div class="mainContainer">
+        <img src="./assets/logo2.png" alt="">
+        <div class="container">
+            <div class="heading">
+                <h1>FEEDBACK FORM</h1>
+            </div>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">YOUR NAME</label>
+                    <input type="text" style="color: #fff;" id="username" name="username" placeholder="Enter your name"
+                        required />
+                </div>
+                <div class="form-group">
+                    <label for="email-address">EMAIL ADDRESS</label>
+                    <input type="text" style="color: #fff;" id="email-address" name="email-address"
+                        placeholder="Enter your email address" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+                    <textarea name="message" style="color: #fff; font-family: sans-serif;" id="message" cols="30"
+                        rows="10" placeholder="Enter message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
